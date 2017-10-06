@@ -5,10 +5,10 @@ class calculation {
   int y;
   
   public:
-  int values(int a, int b);
+  int multiply(int a, int b);
 };
   
-  int calculation::values(int a , int b){
+  int calculation::multiply(int a , int b){
     return a*b;
     
   }
@@ -20,6 +20,6 @@ class calculation {
   int main(){
   calculation mycalc;
   
-  std::cout << mycalc.values(6,12)<< std::endl;
+  std::cout << mycalc.multiply(6,12)<< std::endl;
   return 0;
 }
